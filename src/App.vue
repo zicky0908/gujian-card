@@ -4,10 +4,10 @@
     <!-- Navbar -->
     <div class="nav">
       <div class="nav-item left">
-        古劍奇譚 - 千秋戲模擬器
+        Cổ kiếm kỳ đàm  -  Mô phỏng Thiên thu hí
       </div>
       <div class="nav-item nav-title">
-        分數：{{ gameScore }}
+        Điểm：{{ gameScore }}
       </div>
       <div class="nav-item right">
         
@@ -53,14 +53,14 @@
                 <b-icon icon="search"></b-icon>
               </b-input-group-prepend>
 
-              <b-form-input type="search" v-model.trim="keyword" placeholder="搜尋卡牌"></b-form-input>
+              <b-form-input type="search" v-model.trim="keyword" placeholder="Gõ tên bài để tìm"></b-form-input>
               <b-input-group-append>
-                <b-button variant="info" @click="playGame()">開新局</b-button>
+                <b-button variant="info" @click="playGame()">Làm mới</b-button>
               </b-input-group-append>
             </b-input-group>
             
             <div class="areaCenter">
-              <span>卡牌分類：</span>
+              <span>Mùa：</span>
               <b-form-group>
                 <b-form-checkbox-group
                   v-model="selectedSeason"
@@ -74,7 +74,7 @@
         </div>
 
         <div class="auto-recommand" v-if="autoRecommandCard.length > 0">
-          出牌推薦：
+          Đề cử chọn bài：
           <span v-for="(item, index) in autoRecommandCard" :key="index" >
             <span :class="displaySeason(item.type)" @click="cardHandler(item.id)">
               {{ item.name }}
