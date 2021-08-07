@@ -16,7 +16,7 @@
 	{ "id": 7, "name": "Nhạc Vô Dị", "img": "1-07.png", "isActive": false, "type": 2 },
 	{ "id": 8, "name": "Tạ Y", "img": "1-08.png", "isActive": false, "type": 2 },
 	{ "id": 9, "name": "Ngu Kỳ", "img": "1-09.png", "isActive": false, "type": 2 },
-	{ "id": 10, "name": "Khan Du", "img": "1-10.png", "isActive": false, "type": 2 },
+	{ "id": 10, "name": "Kiên Du", "img": "1-10.png", "isActive": false, "type": 2 },
 	{ "id": 11, "name": "Hồng Ngọc", "img": "1-11.png", "isActive": false, "type": 3 },
 	{ "id": 12, "name": "Doãn Thiên Thương", "img": "1-12.png", "isActive": false, "type": 3 },
 	{ "id": 13, "name": "Văn Nhân Vũ", "img": "1-13.png", "isActive": false, "type": 3 },
