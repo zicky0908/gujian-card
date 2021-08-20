@@ -35,7 +35,7 @@
 	{ "id": 26, "name": "Bồng Lai", "img": "1-26.png", "isActive": false, "type": 2 },
 	{ "id": 27, "name": "Thanh Ngọc Đàn", "img": "1-27.png", "isActive": false, "type": 3 },
 	{ "id": 28, "name": "Tử Dung Lâm", "img": "1-28.png", "isActive": false, "type": 3 },
-	{ "id": 29, "name": "Vu Sơn", "img": "1-29.png", "isActive": false, "type": 3 },
+	{ "id": 29, "name": "Dao Sơn", "img": "1-29.png", "isActive": false, "type": 3 },
 	{ "id": 30, "name": "Thái Hoa Sơn", "img": "1-30.png", "isActive": false, "type": 4 },
 	{ "id": 31, "name": "U Đô", "img": "1-31.png", "isActive": false, "type": 4 },
 	{ "id": 32, "name": "Thành Lưu Nguyệt", "img": "1-32.png", "isActive": false, "type": 4 },
